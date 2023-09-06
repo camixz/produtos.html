@@ -1,45 +1,47 @@
-header {
-    background: #BBBBBB;
+header{
+    background-color: #ccc;
     padding: 20px 0;
-} 
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
 }
 
-nav {
+.caixa{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+  
+
+nav{
     position: absolute;
     top: 110px;
     right: 0;
-}
-   
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+
 }
 
-nav a {
-   text-transform: uppercase; 
-   color: #000000;
-   font-weight: bold;
-   font-size: 22px;
-   text-decoration: none;
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #c78c19;
     text-decoration: underline;
 }
 
-.produtos {
+.produtos{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.produtos li {
+.produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -47,20 +49,20 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #7b40c9;
     border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: #C78C19;  
+    border-color: #c78c19;
 }
 
-.produtos li:active {
-    border-color: #088C19;
+.produtos li:active{
+    border-color: #088c19;
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .produtos h2 {
@@ -68,24 +70,24 @@ nav a:hover {
     font-weight: bold;
 }
 
-.produtos-descrição {
+.produto-descriçao {
     font-size: 18px;
 }
 
-.produtos-preços {
+.produto-preço{
     font-size: 22px;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 10px 0 0;
 }
 
 footer {
     text-align: center;
     background: url("bg.jpg");
-    padding: 40px 0;
+    padding: 40px 0px;
 }
 
 .copyright {
-     color: #FFFFFF;
-     font-size: 13px;
-     margin: 20px 0 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
