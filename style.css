@@ -1,5 +1,5 @@
 header {
-	background: #9b0808;
+	background: #a70e0e;
 	padding: 20px 0;
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover{
-	color: #ffffff;
+	color: #fcfcfc;
 	text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #b10009;
+	border-color: #961515;
 	
 }
 
@@ -66,7 +66,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-	border-color: #ff0000;
+	border-color: #088c19;
 }
 
 
@@ -130,15 +130,15 @@ textarea{
 .enviar{
 	width: 40%;
 	padding: 15px 0;
-	background-color:rgb(255, 0, 0) ;
-	color: rgb(255, 255, 255);
+	background-color:rgb(206, 21, 21) ;
+	color: aquamarine;
 	font-size: 18px;
 	font-weight: bold;
 	transition: 0.5s all;
 }
 
 .enviar:hover{
-	background-color: rgb(0, 0, 0);
+	background-color: black;
 	color: white;
 	transform: scale(1.05);
 }
@@ -148,13 +148,62 @@ table{
 }
 
 thead{
-	background: rgb(184, 0, 0);
+	background: #555;
 	color: white;
 	font-weight: bold;
-
 }
 
 td{
-	border: 2px solid black;
+	border: 2px solid #000;
 	padding: 15px 66px;
 }
+
+/*CSS da página principal*/
+.banner{
+	width: 100%;
+}
+
+.titulo-centralizado{
+	
+	text-align: center;
+	font-size: 2.5em;
+	margin: 1em 0 1em;
+	font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.principal p{
+	margin: 0 0 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+	
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagembeneficios{
+	width: 60%;
+}
+
+.utensilios{
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
